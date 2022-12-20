@@ -11,11 +11,11 @@ const Input = styled.input`
     outline: none;
     border-radius: 24px;
     border: solid #E2E8F0 1px;
-    background-color: #F8FAFC;
+    background-color: white;
     color: #152842;
     width: 100%;
     &:hover {
-        background: linear-gradient(180deg, #DFEAF1 0%, #CFDDE8 100%);
+        background: #D9E2EFB8;
     }
     &:focus {
         background: white;
@@ -23,9 +23,10 @@ const Input = styled.input`
 `;
 
 const SearchIconWrapper = styled.div`
-    background-color: #F8FAFC;
+    background-color: white;
     position: absolute;
     border-radius: 24px;
+    border: solid #E2E8F0 1px;
     right: 0px;  /* Здесь можно добавить отступ от правого края, чтобы сдвинуть иконку левее */
     top:50%;
     transform: translateY(-50%);
